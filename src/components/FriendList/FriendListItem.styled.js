@@ -7,7 +7,6 @@ export const Indicator = styled.span`
     margin-left: 5px;
 
     background-color: ${props =>{
-        console.log(props.isOnline)
         if(props.isOnline){ return "green" }
         else{ return "red" }
         
