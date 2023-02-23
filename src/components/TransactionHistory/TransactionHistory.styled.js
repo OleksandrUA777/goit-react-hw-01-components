@@ -10,6 +10,9 @@ export const Th = styled.th`
     padding: 8px;
     text-align: left;
 `
+
+
+
 export const Tr = styled.tr`
     border: 1px solid #ddd;
     :nth-child(even){
